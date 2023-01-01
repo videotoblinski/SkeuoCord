@@ -1,9 +1,9 @@
 /**
  * @name SkeuoCord
- * @author Marda33
+ * @author Marda33 et al
  * @version 1 (Auto Update)
- * @description A complete skeuomorphic overhaul for Discord.
- * @website https://github.com/Marda33/SkeuoCord
+ * @description A complete skeuomorphic overhaul for Discord, plus extra stupidity.
+ * @website https://github.com/videotoblinski/SkeuoCord
  * @source https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css
 */
 
@@ -16,8 +16,17 @@
 	--smallavatarradius: 2px !important; /*default: 2px*/
 	--medavatarradius: 4px !important; /*default: 4px*/
 	--largeavatarradius: 5px !important; /*default: 5px*/
-	/*------*/
+	
+	/* fix fonts, too */
 	--font-primary: "Cantarell", Whitney, sans-serif;
 	--font-display: var(--font-primary);
 	--font-headline: var(--font-primary);
+}
+
+/* pretty usernames, since it looks terrible on linux... */
+.username-h_Y3Us.clickable-31pE3P {
+	font-family: monospace;
+	font-size: medium;
+	opacity: 0.75;
+	font-variant: small-caps;
 }
