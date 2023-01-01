@@ -24,9 +24,9 @@
 }
 
 /* pretty usernames, since it looks terrible on linux... */
-.header-2jRmjb {
-	font-family: monospace;
-	font-size: medium;
-	opacity: 0.75;
-	font-variant: small-caps;
+.headerText-2z4IhQ {
+	font-family: monospace !important;
+	font-size: medium !important;
+	opacity: 0.75 !important;
+	font-variant: small-caps !important;
 }
