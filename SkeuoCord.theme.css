@@ -17,4 +17,7 @@
 	--medavatarradius: 4px !important; /*default: 4px*/
 	--largeavatarradius: 5px !important; /*default: 5px*/
 	/*------*/
+	--font-primary: "Cantarell", Whitney, sans-serif;
+	--font-display: var(--font-primary);
+	--font-headline: var(--font-primary);
 }
